@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #222 !important;
+    .box{
+        width: 1000px;
+        height: 600px;
+        display: flex;
+        background: #fff;
+        .img{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .inputs{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}
+

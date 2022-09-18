@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #222 !important;
+}
+body .box {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  background: #fff;
+}
+body .box .img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .box .inputs {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}/*# sourceMappingURL=main.css.map */
